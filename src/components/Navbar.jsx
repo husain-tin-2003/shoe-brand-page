@@ -3,7 +3,7 @@ import nikeLogo from "../assets/nike.png";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="container">
       <div>
         <img className="logo" src={nikeLogo} alt="Nike Logo" />
       </div>
