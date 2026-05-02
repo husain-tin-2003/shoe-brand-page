@@ -97,3 +97,50 @@ nav ul a {
   display: flex;
   gap: 16px;
 }
+
+.shoes-img {
+  height: 450px;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    height: 40px;
+  }
+
+  nav ul {
+    gap: 10px;
+    padding: 0;
+  }
+
+  nav ul a {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 3px 8px;
+    font-size: 14px;
+  }
+
+  .container {
+    margin: 0 10px;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    height: calc(92vh - 72px);
+  }
+
+  .hero h1 {
+    font-weight: 800;
+    line-height: 51px;
+    font-size: 54px;
+  }
+
+  .hero-btn button {
+    font-size: 15px;
+  }
+
+  .shoes-img {
+    height: 225px;
+  }
+}
